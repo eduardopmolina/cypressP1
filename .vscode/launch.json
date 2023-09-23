@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        
+        {
+            "type": "chrome",
+            "name": "https://www.youngliving.com/us/en",
+            "request": "launch",
+            "url": "https://www.youngliving.com/us/en"
+        }
+    ]
+}
