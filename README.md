@@ -2,17 +2,17 @@
 TeatCase
 TestCase for Test
 
-TODO: Make some calls more readable.
+TODO: Make some calls more readable using Ailiases.
 
-TODO: Validation on fielñds.
+TODO: Validation on feilds. Use Then to ensure async does not take over.
 
 TODO: Integrate to CI. Eg. Drone, CricleCI, Jenkins etc.
 
-TODO: Make dta Data Drive.
+TODO: Make data Data Driven.
 
 TODO: Make pwd secret.
 
-TODO: Ask for Cypress property to be used. This would help in readability & also for creating function to cut down on typing and readability.
+TODO: Ask for Cypress property to be used. This would help in reliability and readability & also for creating function to cut down on typing.
 
 TODO: Integrat TestCase, Test(s), Steps, Expected Results, Actual Results, Description, Pass/Fail.
 
