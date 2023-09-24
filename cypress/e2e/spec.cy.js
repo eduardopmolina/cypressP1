@@ -45,6 +45,8 @@ context("Logon section (preexisting creds) ", () => {
       cy.get('[name="street1"] > .form-group > #billaddress1').type("1 main Street")
       cy.get('#billcity').type("Santiago")
 
+      //test
+
     })
    })
 
