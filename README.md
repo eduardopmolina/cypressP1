@@ -4,7 +4,7 @@ TestCase for Test
 
 TODO: Make some calls more readable using Ailiases.
 
-TODO: Validation on feilds. Use Then to ensure async does not take over.
+TODO: Validation on fields. Use Then to ensure async does not take over.
 
 TODO: Integrate to CI. Eg. Drone, CricleCI, Jenkins etc.
 
