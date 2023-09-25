@@ -1,12 +1,12 @@
-// 1. Write an automated test based on the test case below (you may use any language/tool you want)
+/// <reference types="cypress" />
 
 describe('Test Case', () => {
   beforeEach(() => {
-    cy.goToUrlUsingCustomCommand()
+    cy.goToUrlUsingCustomCommand();
     cy.fixture('myData').then(function (data) {
       globalThis.data = data
-    })
-  })
+    });
+  });
 
   // 2. Login (using the credentials you create manual)
   context("Logon section (preexisting creds) ", () => {
