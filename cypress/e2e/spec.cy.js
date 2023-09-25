@@ -1,7 +1,7 @@
 // 1. Write an automated test based on the test case below (you may use any language/tool you want)
 describe('Test Case', () => {
   beforeEach(() => {
-    cy.visit("https://www.youngliving.com/us/en")
+    cy.visit("https://www.youngliving.com/us/en") 
   })
 
   // 2. Login (using the credentials you create manual)
