@@ -35,6 +35,7 @@ describe('Test Case', () => {
         // 11. Click on close button for Verify Address pop up if it is present
         // 12. Select a shipping Method (you can select address check box 
         // 13. Select and fill out Payment Method (Credit Card)
+        // Need to improve all of these Cypress selector suggestions. TODO
         cy.get('#FedEx\ International\ Priority\ \$77\.52\ \(2\ -\ 4\ business\ days\) > .ui-select-choices-row-inner').click()
         cy.get('[ui-view=""] > .button-group > .button-cta').click()
         cy.get('[ng-click="$ctrl.addPayment(payment.paymentMethodInfo, payment.currency)"]').click()
