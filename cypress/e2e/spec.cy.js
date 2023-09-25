@@ -1,17 +1,13 @@
 // 1. Write an automated test based on the test case below (you may use any language/tool you want)
 describe('Test Case', () => {
   beforeEach(() => {
-<<<<<<< Updated upstream
     cy.visit("https://www.youngliving.com/us/en") 
-  })
-=======
-    cy.visit("https://www.youngliving.com/us/en")
     // Grab myData
     cy.fixture('myData').then(function(data) {
       globalThis.data = data;
+  
     })
 })
->>>>>>> Stashed changes
 
   // 2. Login (using the credentials you create manual)
 context("Logon section (preexisting creds) ", () => {
