@@ -6,6 +6,7 @@ describe('Test Case', () => {
     cy.fixture('myData').then(function (data) {
       globalThis.data = data
     });
+    // cy.pause
   });
 
   // 2. Login (using the credentials you create manual)
