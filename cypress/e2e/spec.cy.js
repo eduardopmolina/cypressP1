@@ -1,16 +1,25 @@
 // 1. Write an automated test based on the test case below (you may use any language/tool you want)
 describe('Test Case', () => {
   beforeEach(() => {
+<<<<<<< Updated upstream
     cy.visit("https://www.youngliving.com/us/en") 
   })
+=======
+    cy.visit("https://www.youngliving.com/us/en")
+    // Grab myData
+    cy.fixture('myData').then(function(data) {
+      globalThis.data = data;
+    })
+})
+>>>>>>> Stashed changes
 
   // 2. Login (using the credentials you create manual)
 context("Logon section (preexisting creds) ", () => {
   it('Test', () => {
         cy.contains('Sign In').click()
-        cy.get('#loginUsername').type('eduardopmolina@hotmail.com',  {force: true}).should('have.value', 'eduardopmolina@hotmail.com')
+        cy.get('#loginUsername').type(data.email,  {force: true}).should('have.value', data.email)
         cy.get('#continue-btn').click()
-        cy.get('#loginPassword').type('DokiDog1',  {force: true}).should('have.value', 'DokiDog1')
+        cy.get('#loginPassword').type(data.pwd,  {force: true}).should('have.value', data.pwd)
         cy.get('#login-btn').click()
         cy.get('[index="1"] > .modal-dialog > .modal-content > [vo-load-translations=""] > [translate-namespace="my-imports-dialog"] > .newAddressModal > .modal-footer > .right > .button-cta').click()
         cy.get("button[class=button-cta]").click()
