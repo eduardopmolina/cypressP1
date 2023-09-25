@@ -2,7 +2,7 @@
 
 describe('Test Case', () => {
   beforeEach(() => {
-    cy.visit("/")
+    cy.goToUrlUsingCustomCommand()
     cy.fixture('myData').then(function (data) {
       globalThis.data = data
     })
@@ -51,7 +51,7 @@ describe('Test Case', () => {
   
       })
     })
-    
+
   })
 })
 
