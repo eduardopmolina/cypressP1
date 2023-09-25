@@ -15,5 +15,6 @@ module.exports = defineConfig({
     pageLoadTimeout: 50000,
     viewportHeight: 1080,
     viewportWidth: 1920,
+    baseUrl: "https://www.youngliving.com/us/en"
   },
 });
